@@ -16,8 +16,10 @@ instance View WelcomeView where
                   </h2>
 
                   <p style="margin-top: 1rem; font-size: 1.75rem; font-weight: 600; color:hsla(196, 13%, 80%, 1)">
-                     Your new application is up and running.
+                        <a href={NewSessionAction}>Login</a>
                   </p>
+
+
 
                   <p>
                       <a
